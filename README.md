@@ -51,3 +51,25 @@ El filtrado por idioma aplicado en la primera fase excluye correos de phishing e
 Una proporcion reducida de los registros conserva fragmentos de codigo CSS mal formado que no pudo eliminarse mediante expresiones regulares debido a la ausencia de una sintaxis consistente.
 
 ## Estructura del repositorio
+phishing-detection/
+
+├── README.md
+
+├── notebooks/
+
+│   ├── 01_extraccion.ipynb
+
+│   ├── 02_eda.ipynb
+
+│   ├── 03_limpieza.ipynb
+
+│   ├── 04_traduccion.ipynb
+
+│   ├── 05_entrenamiento.ipynb
+
+│   └── 06_evaluacion_ood.ipynb
+
+└── data/
+
+└── README.md
+
