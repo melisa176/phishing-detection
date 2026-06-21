@@ -71,5 +71,4 @@ phishing-detection/
 
 └── data/
 
-└── README.md
 
